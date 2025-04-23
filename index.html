@@ -1,38 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Seyyed Sina Negahban - About Me</title>
-    <link rel="stylesheet" href="./statics/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>About Me</title>
+    <link rel="stylesheet" href="./statics/style.css">
 </head>
 <body>
-<div class="sidebar">
-    <img src="./statics/profile.jpg" alt="Profile Photo" class="profile-img" />
-    <h2>Seyyed Sina Negahban</h2>
-    <p>Computer Engineering Student</p>
-    <p>ablah blah blahblah blah blahblah blah blah blahblah blah</p>
-    <div class="social-icons">
-        <img src="./statics/location.jpg" alt="location" />
-        <img src="./statics/email.jpg" alt="email" />
-        <img src="./statics/linkedin.png" alt="linkedin" />
-        <img src="./statics/github.png" alt="github" />
-    </div>
-</div>
+<div class="container">
+    <aside class="sidebar">
+        <img src="./statics/profile.jpg" alt="Profile" class="profile-img">
+        <h2>Seyyed Sina Negahban</h2>
+        <p class="title">Computer Engineering Student</p>
+        <p class="desc">ablah blah blahblah blah blahblah blah blah blahblah blah</p>
+        <div class="sidebar-links">
+            <a href="https://maps.google.com/?q=Tehran,+Iran">
+                <img
+                        src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlemaps.svg"
+                        width="32" height="32"
+                        alt="Location">
+                Tehran, Iran
+            </a>
+            <a href="mailto:your.email@example.com">
+                <img
+                        src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gmail.svg"
+                        width="32" height="32"
+                        alt="Email">
+                Email
+            </a>
 
-<div class="main-content">
-    <nav>
-        <a href="index.html" class="active">About Me</a>
-        <a href="projects.html">Projects</a>
-        <a href="experience.html">Experience</a>
-        <a href="cv.html">CV</a>
-    </nav>
+            <a href="https://www.linkedin.com/in/yourusername">
+                <img
+                        src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg"
+                        width="32" height="32"
+                        alt="LinkedIn">
+                LinkedIn
+            </a>
 
-    <section class="about">
-        <h1>About Me</h1>
-        <p>Body text for your whole article or post. We'll put in some lorem ipsum to show how a filled-out page might look:</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non urna ut libero laoreet facilisis. Etiam tristique justo quis turpis fermentum, nec convallis turpis tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
-    </section>
+            <a href="https://github.com/yourusername">
+                <img
+                        src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg"
+                        width="32" height="32"
+                        alt="GitHub">
+                GitHub
+            </a>
+
+        </div>
+    </aside>
+    <main>
+        <nav class="navbar">
+            <a href="index.html" class="active">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="experience.html">Experience</a>
+            <a href="cv.html">CV</a>
+        </nav>
+        <section id="about">
+            <h1>About Me</h1>
+            <p>Body text for your whole article or post. We'll put in some lorem ipsum to show how a filled-out page might look:</p>
+            <p>Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content...</p>
+        </section>
+    </main>
 </div>
 </body>
 </html>

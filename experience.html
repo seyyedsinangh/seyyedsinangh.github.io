@@ -2,41 +2,69 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Experience</title>
   <link rel="stylesheet" href="./statics/style.css">
 </head>
 <body>
-<div class="sidebar">
-  <img src="./statics/profile.jpg" alt="Profile Photo" class="profile-img" />
-  <h2>Seyyed Sina Negahban</h2>
-  <p>Computer Engineering Student</p>
-  <p>ablah blah blahblah blah blahblah blah blah blahblah blah</p>
-  <div class="social-icons">
-    <img src="./statics/location.jpg" alt="location" />
-    <img src="./statics/email.jpg" alt="email" />
-    <img src="./statics/linkedin.png" alt="linkedin" />
-    <img src="./statics/github.png" alt="github" />
-  </div>
-</div>
-<div class="main-content">
-  <nav>
-    <a href="index.html">About Me</a>
-    <a href="projects.html">Projects</a>
-    <a href="experience.html" class="active">Experience</a>
-    <a href="cv.html">CV</a>
-  </nav>
-  <section class="experience">
-    <h1>Experience</h1>
-    <div class="exp">
-      <h2>exp1 - location1</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+<div class="container">
+  <aside class="sidebar">
+    <img src="./statics/profile.jpg" alt="Profile" class="profile-img">
+    <h2>Seyyed Sina Negahban</h2>
+    <p class="title">Computer Engineering Student</p>
+    <div class="sidebar-links">
+      <a href="https://maps.google.com/?q=Tehran,+Iran">
+        <img
+                src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlemaps.svg"
+                width="32" height="32"
+                alt="Location">
+        Tehran, Iran
+      </a>
+      <a href="mailto:your.email@example.com">
+        <img
+                src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gmail.svg"
+                width="32" height="32"
+                alt="Email">
+        Email
+      </a>
+
+      <a href="https://www.linkedin.com/in/yourusername">
+        <img
+                src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg"
+                width="32" height="32"
+                alt="LinkedIn">
+        LinkedIn
+      </a>
+
+      <a href="https://github.com/yourusername">
+        <img
+                src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg"
+                width="32" height="32"
+                alt="GitHub">
+        GitHub
+      </a>
+
     </div>
-    <div class="exp">
-      <h2>exp2 - location2</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-    </div>
-  </section>
+  </aside>
+  <main>
+    <nav class="navbar">
+      <a href="index.html">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="experience.html" class="active">Experience</a>
+      <a href="cv.html">CV</a>
+    </nav>
+    <section class="experience">
+      <h1>Experience</h1>
+      <div class="job">
+        <h3>exp1</h3><span class="location">location1</span>
+        <p>Excepteur efficient emerging, minim veniam anim aute carefully curated...</p>
+      </div>
+      <div class="job">
+        <h3>exp2</h3><span class="location">location2</span>
+        <p>Excepteur efficient emerging, minim veniam anim aute carefully curated...</p>
+      </div>
+    </section>
+  </main>
 </div>
 </body>
 </html>
