@@ -32,6 +32,7 @@ body {
 .sidebar p.title {
     color: #666;
     margin-bottom: 1rem;
+    font-size: 0.8rem;
 }
 .sidebar p.desc {
     font-size: .875rem;
