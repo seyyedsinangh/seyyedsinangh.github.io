@@ -34,12 +34,6 @@ body {
     margin-bottom: 1rem;
     font-size: 0.8rem;
 }
-.sidebar p.desc {
-    font-size: .875rem;
-    color: #888;
-    margin-bottom: 1.5rem;
-}
-
 .sidebar-links {
     display: flex;
     flex-direction: column;
@@ -81,41 +75,38 @@ nav a.active {
 section {
     margin-bottom: 2rem;
 }
-section h1 {
+.section-title {
     font-size: 2rem;
     margin-bottom: 1rem;
-}
-section h2 {
-    font-size: 1.25rem;
-    margin: 1rem 0 .5rem;
-}
-section p {
-    margin-bottom: 1rem;
-    color: #444;
 }
 
 .project {
     display: flex;
     gap: 1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    align-items: flex-start;
 }
-.project img {
-    width: 120px;
-    border-radius: 6px;
+.project-thumb {
+    width: 100px;
+    height: 100px;
     object-fit: cover;
+    border-radius: 6px;
 }
-
-.experience .job {
-    margin-bottom: 1.5rem;
+.project-details h3 {
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
 }
-.job h3 {
-    font-size: 1.1rem;
-    margin-bottom: .25rem;
+.project-link {
+    color: #007acc;
+    text-decoration: none;
     font-weight: 500;
 }
-.job span.location {
-    color: #555;
-    font-size: .875rem;
+.project-link:hover {
+    text-decoration: underline;
+}
+.link-icon {
+    font-size: 0.85em;
+    margin-left: 0.3em;
 }
 
 .cv-page .container {
@@ -148,5 +139,12 @@ section p {
         position: relative;
         top: auto;
         margin-bottom: 2rem;
+    }
+    .project {
+        flex-direction: column;
+        align-items: start;
+    }
+    .project-thumb {
+        width: 100%;
     }
 }
