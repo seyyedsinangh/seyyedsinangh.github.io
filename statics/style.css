@@ -30,7 +30,7 @@ body {
     margin-bottom: .25rem;
 }
 .sidebar p.title {
-    color: #666;
+    color: #333333;
     margin-bottom: 1rem;
     font-size: 0.8rem;
 }
@@ -147,4 +147,8 @@ section {
     .project-thumb {
         width: 100%;
     }
+}
+
+h1 {
+    font-size: 1.4rem;
 }
